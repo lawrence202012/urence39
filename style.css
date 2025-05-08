@@ -1,0 +1,279 @@
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #000000; /* Neutral dark text */
+    background-color: #e3e3e3; /* Soft white background */
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Base font size */
+}
+h1{
+    font-weight: 600;
+}
+/* Navbar */
+.navbar {
+    background-color: skyblue;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Medium font size */
+    font-weight: bold;
+    color: #435554;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 1rem; /* Base margin */
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 1rem; /* Base margin */
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #2a9d8f; /* Green for accents */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to bottom right, #0077b6, #2a9d8f); /* Primary and secondary colors */
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem; /* Section padding and base padding */
+}
+
+.hero-section h1 {
+    font-size: 2.8rem; /* Large font size */
+    font-weight: bold;
+    margin-bottom: 2rem; /* Large margin */
+}
+
+.hero-section p {
+    font-size: 1rem; /* Smaller font size */
+    margin-bottom: 2rem; /* Large margin */
+}
+
+.hero-section .btn {
+    background-color: #2a9d8f; /* Button background color */
+    color: #ffffff;
+    font-size: 1rem; /* Button text size */
+    padding: 10px 20px; /* Button padding */
+    border: none;
+    border-radius: 10px; /* Default border radius */
+    transition: background-color 0.3s; /* Transition speed */
+}
+
+.hero-section .btn:hover {
+    background-color: #21867a; /* Button hover color */
+}
+
+/* Services Section */
+#services {
+    padding: 4rem 1rem; /* Section padding and base padding */
+    background-color: #e3e3e3; /* Soft white background */
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 2.8rem; /* Large font size */
+    font-weight: bold;
+    color: #0077b6; /* Blue for primary elements */
+    margin-bottom: 2rem; /* Large margin */
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle card shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition speed */
+    border-radius: 10px; /* Default border radius */
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Card hover shadow */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Medium font size */
+    font-weight: bold;
+    text-align: center;
+    color: #2a9d8f; /* Green for accents */
+}
+
+.card-text {
+    font-size: 1rem; /* Smaller font size */
+    color: #343a40; /* Neutral dark text */
+    padding: 1rem; /* Base padding */
+}
+
+.price {
+    font-size: 1rem; /* Smaller font size */
+    color: #48cae4; /* Light blue for highlights */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem; /* Base margin */
+}
+
+/* About Section */
+#about iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px; /* Default border radius */
+    border: 10;
+}
+#about p {
+    font-family: 'Poppins', sans-serif; /* Modern & readable font */
+    font-size: 18px; /* Slightly larger for better readability */
+    line-height: 1.6; /* Proper spacing */
+    color: #000000; /* Subtle contrast */
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #007bff; /* Highlighted header color */
+}
+
+
+
+#about p {
+    font-size: 1rem; /* Smaller font size */
+    color: #343a40; /* Neutral dark text */
+    margin-top: 1rem; /* Base margin */
+    text-align: center;
+}
+
+/* Contact Section */
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 4rem; /* Section padding */
+    background-color: #fff;
+    border-radius: 10px; /* Default border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle card shadow */
+}
+
+#contactForm .form-label {
+    font-weight: bold;
+    color: #0077b6; /* Blue for primary elements */
+}
+
+#contactForm button {
+    background-color: #2a9d8f; /* Button background color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Button padding */
+    border-radius: 10px; /* Default border radius */
+    transition: background-color 0.3s; /* Transition speed */
+}
+
+#contactForm button:hover {
+    background-color: #21867a; /* Button hover color */
+}
+
+/* Footer */
+footer {
+    min-height: 60px; /* Adjust height */
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+footer a {
+    color: #007bff; /* Blue for links */
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Logo */
+.logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between the logo and text */
+    vertical-align: middle; /* Align the logo in the middle of the navbar */
+    border-radius: 5px; /* Optional: Add rounded corners to the logo */
+    transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+#gallery img {
+
+        width: 100%; /* Full width */
+        height: 350px; /* Smaller height */
+        object-fit: cover; /* Ensures the full image fits nicely */
+    }
+
+    .carousel-item {
+        transition: opacity 0.8s ease-in-out;
+    }
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+        opacity: 1;
+    }
+    .form-container {
+        border: 2px solid #007bff; /* Blue border */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px;
+        background-color: #f8f9fa; /* Light background */
+    }
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .hero-section h1 {
+        font-size: 2.3rem; /* Adjusted font size */
+    }
+
+    .hero-section p {
+        font-size: 0.8rem; /* Adjusted font size */
+    }
+
+    .card-title {
+        font-size: 1.3rem; /* Adjusted font size */
+    }
+
+    .price {
+        font-size: 0.9rem; /* Adjusted font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 1rem; /* Adjusted padding */
+    }
+
+    .card {
+        margin-bottom: 2rem; /* Large margin */
+    }
+
+    #contactForm {
+        padding: 3rem; /* Adjusted padding */
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.3rem; /* Adjusted font size */
+    }
+
+    .hero-section h1 {
+        font-size: 1.8rem; /* Adjusted font size */
+    }
+
+    .hero-section p {
+        font-size: 0.8rem; /* Adjusted font size */
+    }
+
+    .price {
+        font-size: 0.9rem; /* Adjusted font size */
+    }
+}
